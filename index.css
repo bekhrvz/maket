@@ -1,0 +1,226 @@
+@import url('https://fonts.googleapis.com/css2?family=Caveat:wght@400;600;700&family=Gemunu+Libre:wght@200;400;600;800&family=Poppins:wght@100;200;300;400;500;600;700;800;900&family=Roboto:wght@100;300;400;500;700;900&family=Source+Sans+Pro:wght@200;300;400;600;700;900&display=swap'); 
+*{
+    margin: 0; 
+    padding: 0; 
+    text-decoration: none; 
+    list-style-type: none; 
+    box-sizing: border-box; 
+    font-family: 'Poppins', sans-serif;
+}   
+:root {
+    --coll-3: calc(100% / 12 * 3);
+    --coll-4: calc(100% / 12 * 4);
+    --coll-6: calc(100% / 12 * 6);
+    --coll-12: calc(100% / 12 * 12);
+}
+
+header {
+    height: 100vh; 
+    width: 100%; 
+     background-image: url(./images/75ae05112787439\ 1.png); 
+     background-size: cover; 
+     background-position: center; 
+}
+header nav {
+    display: flex; 
+    align-items: center; 
+    justify-content: space-around; 
+padding-top: 15px; 
+padding-right: 12%; 
+font-size: 20px;
+
+} 
+header nav ul li {
+    list-style-type: none; 
+display: inline-block; 
+padding: 15px 20px;
+} 
+header nav ul li a{
+    color: aliceblue; 
+    text-decoration: solid; 
+    font-weight: bold; 
+    text-transform: capitalize;  
+}  
+header nav ul li a:hover{
+    color: black; 
+
+}
+.logo {
+      justify-content: center;
+}  
+.logo:hover{
+    transform: scale(1.2);
+} 
+button {
+    background: #114E86;
+    color: aliceblue; 
+    text-decoration: dotted;  
+     border: 2px solid transparent; 
+     font-weight: bold;  
+     padding: 10px 25px; 
+     
+     transition: transform .4s;
+} 
+button:hover {
+    background-color: transparent; 
+    border: 2px solid #114E86;
+    cursor: pointer;
+} 
+
+.bg_bc{
+    display: block; 
+   
+    padding: 200px;
+} 
+.text h1 {
+   display: inline-block; 
+font-family: 'Montserrat';
+font-style: normal;
+font-weight: 700;
+font-size: 36px;
+line-height: 54px; 
+color: aliceblue;
+} 
+.bg_text{
+    display: block; 
+     width: 1000px; 
+     margin: auto; 
+     padding-top: 40px; 
+     
+} 
+.about h1 {
+    font-size: 30px; 
+    color: black; 
+    font-family: 'Montserrat';
+font-style: normal; 
+text-align: center;
+} 
+.lorem p {
+    color: black ; 
+    letter-spacing: 1px; 
+    line-height: 28px; 
+    font-size: 18px; 
+    margin-bottom: 45px;
+
+} 
+.block{
+    font-size: 40px; 
+    color: antiquewhite;
+     position: fixed; 
+     right: 100px; 
+     bottom: 100px;  
+ 
+   }  
+   .block a i{
+     color: rgb(44, 152, 152); 
+    
+   }
+   .block a{
+     text-decoration: none;
+   }  
+   .block a i:hover{
+    color: aqua;
+    
+   }  
+
+   .image img {
+    border-radius: 50%;
+   }
+  .text00 {
+    padding-bottom: 20px;
+    flex-wrap: wrap; 
+    text-decoration:dotted;
+  } 
+  .text00 p {
+     color: black; 
+
+  } 
+  .text00 span {
+    color: grey;
+  }
+   .orig h1 {
+          text-align: center; 
+          padding-bottom: 30px;
+   } 
+   .column {
+    background-color: darkblue; 
+    margin: auto; 
+    padding-top: 20px; 
+    border-radius: 15px;
+   } 
+   .column1 {
+     
+    margin: auto; 
+    padding-top: 20px; 
+    border-radius: 20px; 
+   
+   } 
+   .text00 button {
+      padding-bottom: 30px; 
+      padding-top: 40px;
+   } 
+
+
+    .ft_icons {
+        text-align:left;
+    }
+    
+    footer {
+        background-color: black; 
+        color: azure; 
+        padding-top: 60px; 
+        max-width: 100%;
+    } 
+
+    .ft_origin {
+         display: block; 
+         max-width: 400px; 
+         padding-left: 8%;
+    } 
+    .ft_nav  ul li a {
+        color: aliceblue; 
+        text-decoration: none;
+    } 
+    .ft_nav  ul li a:hover {
+        color: #114E86;
+    } 
+    input {
+        border-radius: 15px; 
+        border: 1px solid black; 
+        height: 40px; 
+        width: 250px; 
+        padding: 15px;
+    }  
+    .container text-center{
+        flex-wrap: wrap;
+    }
+    
+@media (max-width:678px) {
+    .col-lg-4 {
+      width: var(--coll-6);
+    } 
+    
+  
+    
+  } 
+  @media (max-width:450px) {
+    .col-lg-4{
+      width: var(--coll-12);
+    } 
+  
+    header ul{
+      margin-top: 25px; 
+      display: flex; 
+      flex-direction: column; 
+      justify-content: space-between; 
+      height: 150px;
+     } 
+     header ul li a{
+      margin-right: 30px ;
+     } 
+     header nav{
+      display: flex; 
+      flex-direction: column; 
+      align-items: center;
+     }
+   }  
